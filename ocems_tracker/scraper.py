@@ -240,21 +240,19 @@ class LiveDataScrapper:
 
     # @cache.memoize("live-data/{date}/{industry_id}.jsonl")
     def _get_live_data(self, date, industry_id):
+        industry_id = int(industry_id)
         if industry_id not in self.metadata_lookup:
+            print("Unknown industry_id: %r", industry_id)
             return []
         industry = self.metadata_lookup[industry_id]
         for station in industry['stations']:
             for device in station['devices']:
                 for param in device['params']:
+                    row = [industry['id'], station['id'], device['id'], param['key'], param['label']]
                     try:
                         data = self.get_param_values(industry_id, station['id'], device['id'], param['key'])
 
-                        common = dict(industry_id=industry['id'],
-                                    station_id=station['id'],
-                                    device_id=device['id'],
-                                    param_key=param['key'],
-                                    param_label=param['label'])
-                        data2 = [dict(common, **d) for d in data[param['name']]]
+                        data2 = [row + [d['time'], d['value']] for d in data[param['name']]]
                         yield from data2
                     except Exception:
                         args = dict(industry_id=industry['id'],

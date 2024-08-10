@@ -262,6 +262,12 @@ industry_id,industry_name,city,state,year,download_url
 1092,Nikita Papers Limited,Shamli,UP,2021,https://archive.org/download/ocems-data-archive/2021/1092.csv.gz
 1092,Nikita Papers Limited,Shamli,UP,2022,https://archive.org/download/ocems-data-archive/2022/1092.csv.gz
 1092,Nikita Papers Limited,Shamli,UP,2023,https://archive.org/download/ocems-data-archive/2023/1092.csv.gz
+1229,Coromandel Sugars Limited,Mandya,Karnataka,2018,https://archive.org/download/ocems-data-archive/2018/1229.csv.gz
+1229,Coromandel Sugars Limited,Mandya,Karnataka,2019,https://archive.org/download/ocems-data-archive/2019/1229.csv.gz
+1229,Coromandel Sugars Limited,Mandya,Karnataka,2020,https://archive.org/download/ocems-data-archive/2020/1229.csv.gz
+1229,Coromandel Sugars Limited,Mandya,Karnataka,2021,https://archive.org/download/ocems-data-archive/2021/1229.csv.gz
+1229,Coromandel Sugars Limited,Mandya,Karnataka,2022,https://archive.org/download/ocems-data-archive/2022/1229.csv.gz
+1229,Coromandel Sugars Limited,Mandya,Karnataka,2023,https://archive.org/download/ocems-data-archive/2023/1229.csv.gz
 5489,MSPGCL-Paras Thermal Power Station,PARAS,Maharashtra,2017,https://archive.org/download/ocems-data-archive/2017/5489.csv.gz
 5489,MSPGCL-Paras Thermal Power Station,PARAS,Maharashtra,2018,https://archive.org/download/ocems-data-archive/2018/5489.csv.gz
 5489,MSPGCL-Paras Thermal Power Station,PARAS,Maharashtra,2019,https://archive.org/download/ocems-data-archive/2019/5489.csv.gz
