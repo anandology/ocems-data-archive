@@ -17,4 +17,8 @@ The data is archived to an Internet Archive item - [ocems-data-archive][3].
 
 [3]: https://archive.org/details/ocems-data-archive
 
+## Data Index
+
 The data is stored yearly for each industry and the index of the avaiable data is available at [data/index.csv](data/index.csv).
+
+[View/Search the data index &rarr;](https://flatgithub.com/anandology/ocems-data-archive?filename=data/index.csv)
